@@ -54,7 +54,7 @@ metadata:
     addonmanager.kubernetes.io/mode: Reconcile
 data:
   LocalDnsCorefile: |
-    cluster.local:53 {
+    __clusterDomain__:53 {
         errors
         cache {
                 success 9984 30
